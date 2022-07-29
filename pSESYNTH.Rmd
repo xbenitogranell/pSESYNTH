@@ -1,0 +1,165 @@
+---
+title: "Workflow of pSESYNTH database"
+author: 'Author: Xavier Benito (xavier.benito.granell@gmail.com)'
+date: 'Date: 26/07/2022'
+output:
+  html_notebook: default
+---
+
+This *notebook* goes through preparing raw datasets according to a minimum standards
+
+## Instructions
++ **raw-data**: excel sheet handed in by participants. One single file (.xlsx) organized by tabs (each tab is a proxy)
++ **sites**: sites info extracted from the online [Google Spreadsheet](http://https://docs.google.com/spreadsheets/d/1eKxnmnvP9lcxW7IOB7Qwi4XK1KRbq6BELw4jD2N4zJ4/edit?usp=sharing)
++ **data**: Mundged dataset to be read in Shiny
++ **scripts**: bunch of code to pull data from published sources (into development)
+
+
+# Clear workspace and unload previous loaded packages
+
+```{r}
+#clear workspace
+rm(list=ls(all=TRUE))
+dev.off()
+#unload all loaded packages
+pacman::p_unload(pacman::p_loaded(), character.only = TRUE)
+```
+
+
+# Load packages used
+```{r}
+library(tidyverse)
+library(xlsx)
+library(gsheet) #import data into R from Google Spreadsheet 
+library(leaflet)
+
+```
+
+# Import metadata from Google Spreadhseet 
+```{r}
+url <- c('https://docs.google.com/spreadsheets/d/1eKxnmnvP9lcxW7IOB7Qwi4XK1KRbq6BELw4jD2N4zJ4/edit?usp=sharing')
+sites <- gsheet2tbl(url)
+names(sites)
+
+## split data by site and reassemble
+sitesList <- split(sites, sites$id)
+nms <- names(sitesList)
+
+for (i in seq_along(sitesList)) {
+  assign(paste0("", nms[i]), sitesList[[i]])
+  setwd("~/R/pSESYNTH/sites")
+  filenamecsv=paste(nms[i],".csv")
+  write.csv(sitesList[[i]], filenamecsv)
+  setwd("~/R/pSESYNTH/sites")
+  filenamexlsx=paste(nms[i],".xlsx")
+  write.xlsx(sitesList[[i]], filenamexlsx)
+}
+
+```
+
+# Visualize site geographic distribution
+```{r echo=FALSE}
+
+## Leaflet map (quickly visualize distribution of samples)
+sites %>% 
+  leaflet() %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "World Imagery") %>%
+  addProviderTiles(providers$Stamen.TonerLite, group = "Toner Lite") %>%
+  addLayersControl(baseGroups = c("Toner Lite", "World Imagery")) %>%
+  addCircleMarkers(~longitude, ~latitude, 
+                   clusterOptions = markerClusterOptions(),
+                   popup = ~paste0("Proxies: ", as.character(proxy), "<br>",
+                            "Site: ", as.character(sites$id), "<br>")) 
+
+
+```
+
+
+## Import data (from raw-data folder) -- handed in by participants
+
+```{r}
+files <- list.files(path = "raw-data/", full.names = TRUE, pattern = ".xlsx")
+
+# create function 
+read_excel_allsheets <- function(filename, tibble = FALSE) {
+  sheets <- readxl::excel_sheets(filename)
+  sapply(sheets, function(f) (as.data.frame(readxl::read_excel(filename, sheet = f, col_names = TRUE))), 
+         simplify = FALSE)
+}
+
+# execute function for all excel files in "raw-data"
+all_data <- lapply(files, read_excel_allsheets)
+names(all_data)
+
+# Name dataset
+names(all_data) <- "Llaviucu"
+
+#extract  datasets and write as csv separately
+nams <- names(LLaviucu)
+for (i in seq_along(LLaviucu)) {
+  assign(paste0("", nams[i]), LLaviucu[[i]])
+  setwd("~/R/pSESYNTH/data")
+  filenamecsv=paste(nams[i],".csv")
+  write.csv(LLaviucu[[i]], filenamecsv)
+  setwd("~/R/pSESYNTH/data")
+  filenamexlsx=paste(nams[i], ".xlsx")
+  write.xlsx(LLaviucu[[i]], filenamexlsx)
+}
+
+#extract dataframes from list into a single df and gather 
+assembled_df_long <- plyr::ldply(all_data[[1]], data.frame) %>%
+  dplyr::rename(proxy=.id) %>%
+  gather(key = variable, value = count, -proxy, -upper_age, -lower_age, -depth) %>%
+  filter(!count==0) %>%
+  readr::write_csv(glue("{data_dir}/data/{sites$id[1]}.csv")) #ull aqui
+
+
+head(assembled_df_long)
+
+```
+
+
+
+```{r}
+
+```
+
+
+
+
+## gather the relevant column names for each variable type
+
+```{r}
+region <- c("Americas", "Asia/Africa", "Oceania")
+
+#create a vector with attributes of metadata (i.e., column names of skeleton table)
+attrs <- c('id',	'entity',	'title',	'year_published',	'authors',	'theme',	'archive',	'topic',	'proxy',	'indicator',	'unit',	'type',	'spatial_scale',	'time_range',	'latitude',	'longitude',	'is_published',	'raw_data_available',	'DOI_paper',	'DOI_data',	'URL',	'Who')
+
+
+if(exists("index")){rm(index)}
+
+for(i in seq_along(attrs)){
+  if(i==1) index <- NULL
+ if(!eval(expression(attrs[i])) %in% colnames(attributes))next(paste0("Skipping ", attrs[i], ": variable not found in attributes table"))
+
+  temp <- attributes %>%
+  filter(!!rlang::parse_expr(attrs[i]) == TRUE) %>%
+  distinct(attributeName)
+if(nrow(temp)==0)next()
+
+temp <- data.frame(attributeType = eval(expression(attrs[i])),
+                             attributeName=temp$attributeName)
+
+if(!exists("index")){index <- temp;}
+if(exists("index"))(index <-dplyr::bind_rows(index, temp))
+suppressWarnings(rm(temp))
+
+} # end loop for creating index dataframe
+
+```
+
+
+
+
+
+
