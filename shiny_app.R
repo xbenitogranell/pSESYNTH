@@ -5,14 +5,16 @@ library(gsheet) #import data into R from Google Spreadsheet
 library(leaflet)
 library(tidyverse)
 
-data_dir <- "~/R/pSESYNTH"
+#data_dir <- "~/R/pSESYNTH"
+data_dir <- "/Users/xavier/pSESYNTH"
+
 
 # Import metadata from Google Spreadsheet 
 url <- c('https://docs.google.com/spreadsheets/d/1eKxnmnvP9lcxW7IOB7Qwi4XK1KRbq6BELw4jD2N4zJ4/edit?usp=sharing')
 sites <- gsheet2tbl(url)
 
 # I need to create a vector of names of all data contained in /data to use it as choices in search
-all_files <- paste0("~/R/pSESYNTH/data/", list.files("~/R/pSESYNTH/data/", recursive = TRUE))
+#all_files <- paste0("~/R/pSESYNTH/data/", list.files("~/R/pSESYNTH/data/", recursive = TRUE))
 
 
 # Define UI for application that draws a histogram
@@ -48,7 +50,7 @@ ui <- fluidPage(
       tabsetPanel(
         tabPanel("Map", leafletOutput("map",width="100%",height=600)),
         tabPanel("site", tableOutput("site_info")),
-        tabPanel("data", DT::dataTableOutput("site_data_df")),
+        tabPanel("data", tableOutput("site_data_df")),
         tabPanel("plots", plotOutput("ts_plots", height = "2000px")))
     )
   )
@@ -63,8 +65,7 @@ server <- function(input, output) {
   
   
   output$dynamicui <- renderUI({
-    selectInput(inputId = "proxy", label = "Select proxy", choices =
-                  site_data$proxy %in% input$id)
+    selectInput(inputId = "proxy", label = "Select proxy", choices = site_data$proxy)
       })
   
   
@@ -97,7 +98,9 @@ server <- function(input, output) {
             proxy,
             "<br>",
             "<strong>Indicator:</strong>",
-            indicator
+            DOI_paper,
+            "<br>",
+            "<strong>DOI:</strong>"
             )
           )
   })
@@ -108,7 +111,6 @@ server <- function(input, output) {
   }, striped = TRUE, width="auto")
 
 
-  
   proxy_data <- reactive({
     readr::read_csv(file = glue::glue("{data_dir}/data/{input$id}.csv"))
   })
