@@ -15,11 +15,6 @@ sites <- gsheet2tbl(url)
 all_files <- paste0("~/R/pSESYNTH/data/", list.files("~/R/pSESYNTH/data/", recursive = TRUE))
 
 
-## I need to put the metadata into a global header
-pollen_subset <- dplyr::filter(pollen_data, Taxon %in% good_taxa) %>% 
-  select(SiteName, Latitude, Longitude, Age, Taxon, Pct) %>% 
-  mutate_each(funs(as.numeric), Latitude, Longitude, Age, Pct) %>% na.omit
-
 # Define UI for application that draws a histogram
 ui <- fluidPage(
   
