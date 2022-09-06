@@ -1,0 +1,276 @@
+"","Sample ID","Sitename","Country","Sample","Material","C14_date","Error"
+"1","HAM-226","Cochasqui","Ecuador",NA,"bone",0,0
+"2","Hv-1273","Cochasqui","Ecuador","558","charcoal",0,0
+"3","N-3875","Huapula","Ecuador","II-5","unknown",0,0
+"4","SI-3305","Ayalan, Hacienda","Ecuador",NA,"charcoal",0,0
+"5","SI-3306","Ayalan, Hacienda","Ecuador",NA,"charcoal",0,0
+"6","SI-3531","Ayalan, Hacienda","Ecuador",NA,"bone",0,0
+"7","UM-421","Arajuno","Ecuador",NA,"bone",0,0
+"8","UM-423","Arajuno","Ecuador",NA,"bone",0,0
+"9","Hv-1287","Cochasqui","Ecuador","714","charcoal",185,430
+"10","Hv-1286","Cochasqui","Ecuador","661","charcoal",190,130
+"11","SI-3530","Ayalan, Hacienda","Ecuador",NA,"bone",220,120
+"12","Hv-1288","Cochasqui","Ecuador","738a","charcoal",255,70
+"13","PITT-414","La Mina","Ecuador",NA,"unknown",305,60
+"14","Hv-1290","Cochasqui","Ecuador","778","charcoal",370,60
+"15","Hv-1282","Cochasqui","Ecuador","517","charcoal",390,70
+"16","GX#30044","Santa Ana - La Florida","Ecuador",NA,NA,400,70
+"17","Hv-1289","Cochasqui","Ecuador","738b","charcoal",405,90
+"18","Hv-1285","Cochasqui","Ecuador","656","charcoal",425,30
+"19","M-1425","Valle de los Quijos","Ecuador","Sitio Minda","charcoal",440,60
+"20","Hv-1292","Cochasqui","Ecuador","779","charcoal",440,70
+"21","Hv-1284","Cochasqui","Ecuador","649","charcoal",465,70
+"22","Hv-1283","Cochasqui","Ecuador","573","charcoal",475,70
+"23","PITT-415","La Mina","Ecuador",NA,"unknown",515,80
+"24","Hv-1271","Cochasqui","Ecuador","540","charcoal",535,115
+"25","AA-58002","La Cruz Zumba","Ecuador",NA,NA,539,60
+"26","M-736","Cerro de Hojas","Ecuador",NA,"charcoal",560,85
+"27","Beta-20642","C55","Ecuador",NA,NA,560,100
+"28","Hv-1291","Cochasqui","Ecuador","751","charcoal",610,30
+"29","AA-58000","Los Lotes","Ecuador",NA,NA,614,240
+"30","Beta-171896","Tacana","Ecuador",NA,NA,620,140
+"31","M-1426","Valle de los Quijos","Ecuador","Sitio Borja","charcoal",640,130
+"32","Hv-1272","Cochasqui","Ecuador","555","charcoal",655,110
+"33","Hv-15238","Putushio","Ecuador","see:ARCCOMMENT","bone",660,60
+"34","Hv-1275","Cochasqui","Ecuador","562","charcoal",690,120
+"35","UM-422","Arajuno","Ecuador",NA,"bone",690,70
+"36","Hv-1281","Cochasqui","Ecuador","789","charcoal",700,200
+"37","Hv-1279","Cochasqui","Ecuador","727","charcoal",705,50
+"38","Hv-1276","Cochasqui","Ecuador","621","charcoal",720,75
+"39","Beta-100539","Huapula","Ecuador",NA,"carbon",770,200
+"40","P-269","Nueva Armenia","Ecuador",NA,"charcoal",771,200
+"41","Hv-14705","Putushio","Ecuador","(8)F2029/1a-475Cor.B","charcoal",775,170
+"42","P-347","Nueva Armenia","Ecuador",NA,"charcoal",782,80
+"43","SI-3308","Ayalan, Hacienda","Ecuador",NA,"charcoal",795,75
+"44","Hv-14703","Putushio","Ecuador","(6) F2005/3a-4a-490","charcoal",820,115
+"45","GX-12475","Nambillo","Ecuador","R5","unknown",820,75
+"46","SI-3309","Ayalan, Hacienda","Ecuador",NA,"charcoal",840,60
+"47","Beta-106087","Huapula","Ecuador",NA,"carbon",850,195
+"48","Hv-1280","Cochasqui","Ecuador","742","charcoal",860,80
+"49","Hv-1277","Cochasqui","Ecuador","719","charcoal",890,50
+"50","HAM-228","Cochasqui","Ecuador",NA,"wood",890,60
+"51","GX-12476","Nambillo","Ecuador","R6","unknown",895,165
+"52","GX-12478","Nambillo","Ecuador","R4/R13","unknown",905,80
+"53","HAM-230","Cochasqui","Ecuador",NA,"charcoal",910,65
+"54","Hv-1269","Cochasqui","Ecuador","114","wood",920,120
+"55","AA-58003","Paquisha","Ecuador",NA,NA,929,60
+"56","Hv-1274","Cochasqui","Ecuador","561","charcoal",930,60
+"57","Beta-100308","Huapula","Ecuador",NA,"carbon",940,70
+"58","Hv-1271","Cochasqui","Ecuador","40","charcoal",955,115
+"59","SI-3534","Ayalan, Hacienda","Ecuador",NA,"bone",965,75
+"60","Hv-1278","Cochasqui","Ecuador","721","charcoal",975,60
+"61","HAM-229","Cochasqui","Ecuador",NA,"wood",980,135
+"62","GX-12477","Nambillo","Ecuador","R37","unknown",995,50
+"63","GX-12474","Nambillo","Ecuador","R28","unknown",1015,70
+"64","HAM-227","Cochasqui","Ecuador",NA,"wood",1020,85
+"65","UtC-3034","Cumbaya","Ecuador","MC-004","charcoal",1030,70
+"66","Beta-210218","Quimi","Ecuador",NA,NA,1040,160
+"67","Beta-100538","Huapula","Ecuador",NA,"carbon",1070,70
+"68","Beta-168289","Nankais","Ecuador",NA,NA,1070,120
+"69","Beta-90305","Huapula","Ecuador",NA,"carbon",1070,60
+"70","PITT-417","La Mina","Ecuador",NA,"unknown",1120,85
+"71","UtC-3036","Cumbaya","Ecuador","MC-006","charcoal",1140,80
+"72","SI-3532","Ayalan, Hacienda","Ecuador",NA,"bone",1150,120
+"73","UtC-2755","Cumbaya","Ecuador","MC-005","charcoal",1160,70
+"74","Beta-100537","Huapula","Ecuador",NA,"carbon",1210,120
+"75","SI-3529","Ayalan, Hacienda","Ecuador",NA,"bone",1220,70
+"76","UtC-2752","Cumbaya","Ecuador","MC-003","charcoal",1220,135
+"77","GX-16561","Loma Tello","Ecuador","LT-5","charcoal",1225,130
+"78","UtC-1540","Cumbaya","Ecuador","MC-002","charcoal",1230,80
+"79","PITT-410","El Tape","Ecuador",NA,"unknown",1260,80
+"80","GX-16562","Loma Tello","Ecuador","LT-10","charcoal",1280,60
+"81","GX-16564","San Francisco de Cobos","Ecuador","SFC-5","charcoal",1385,80
+"82","Hv-15239","Putushio","Ecuador","F1450/X-7,8v,w","bone",1390,60
+"83","UtC-1539","Cumbaya","Ecuador","MC-001","plant fragments",1440,285
+"84","Beta-90306","Huapula","Ecuador",NA,"carbon",1510,80
+"85","Beta-89269","Huapula","Ecuador",NA,"carbon",1650,40
+"86","UM-424","Arajuno","Ecuador",NA,"bone",1650,75
+"87","GX-12467","Nambillo","Ecuador","R39","unknown",1665,70
+"88","Hv-15240","Putushio","Ecuador","F1351/V-VIII-6v,w","bone",1665,260
+"89","GX-12479","Nambillo","Ecuador","R33","unknown",1665,485
+"90","M-735","La Tolita","Ecuador",NA,"charcoal",1690,130
+"91","GX-10630","Salango","Ecuador",NA,"human bone",1700,60
+"92","GX-13671","Salango","Ecuador",NA,"human bone",1725,80
+"93","N-3876","Huapula","Ecuador","II-6","unknown",1730,80
+"94","GX-12466","Nambillo","Ecuador","R36","unknown",1775,80
+"95","Hv-14702","Putushio","Ecuador","(5) F1166/V-17c","charcoal",1780,120
+"96","N-3874","Huapula","Ecuador","II-4","unknown",1780,65
+"97","Beta-90630","Huapula","Ecuador",NA,"carbon",1790,80
+"98","GX-13024","Salango","Ecuador",NA,"charcoal",1820,110
+"99","Hv-2976","Palmar","Ecuador",NA,"unknown",1830,165
+"100","Beta-116472","Huapula","Ecuador",NA,"carbon",1840,460
+"101","GX-10634","Salango","Ecuador",NA,"human bone",1855,85
+"102","N-4490","Huapula","Ecuador","MS-Hp Tola 1.70 m","unknown",1870,340
+"103","Hv-1294","Palmar","Ecuador",NA,"unknown",1875,8
+"104","Hv-14708","Putushio","Ecuador","(11)F1273/XII-20b","charcoal",1880,85
+"105","N-4489","Huapula","Ecuador","MS-Hp C.D.9 80-100","unknown",1930,60
+"106","HAM-225","Cochasqui","Ecuador",NA,"bone",1930,85
+"107","N-3872","Huapula","Ecuador","II-2","unknown",1940,140
+"108","GX-12377","La Tolita","Ecuador","8TPESE-365-86","charcoal",1950,170
+"109","UtC-2753","Cumbaya","Ecuador","MC-002","charcoal",1970,130
+"110","GX-10635","Salango","Ecuador",NA,"human bone",1980,130
+"111","Beta-116471","Huapula","Ecuador",NA,"carbon",1990,70
+"112","Beta-90307","Huapula","Ecuador",NA,"carbon",1990,220
+"113","N-4492","Huapula","Ecuador","MS-Hp Tola 2 m","unknown",1990,165
+"114","UtC-2754","Cumbaya","Ecuador","MC-004","charcoal",2000,85
+"115","ISGS-1187","Nueva Era","Ecuador",NA,NA,2010,480
+"116","GX-12378","La Tolita","Ecuador","9TPESE-365-85","charcoal",2010,150
+"117","M-1315","Esteros","Ecuador",NA,"charcoal",2050,100
+"118","N-4488","Los Rios (km 58)","Ecuador","LR.58.M. 70-80","unknown",2070,140
+"119","N-3871","Huapula","Ecuador","II-1","unknown",2070,150
+"120","GX-12465","Nambillo","Ecuador","R26","unknown",2095,150
+"121","M-1319","Esteros","Ecuador",NA,"charcoal",2110,190
+"122","Beta-100309","Huapula","Ecuador",NA,"carbon",2110,175
+"123","M-1316","Esteros","Ecuador",NA,"charcoal",2120,90
+"124","Hv-1295","Palmar","Ecuador",NA,"unknown",2145,115
+"125","N-3873","Huapula","Ecuador","II-3","unknown",2150,240
+"126","GX-10632","Salango","Ecuador",NA,"human bone",2160,135
+"127","Beta-89267","Huapula","Ecuador",NA,"carbon",2160,360
+"128","UtC-3037","Cumbaya","Ecuador","MC-005","charcoal",2170,70
+"129","UW-123","Guayaquil","Ecuador","Cut M","shell",2175,70
+"130","UW-124","Guayaquil","Ecuador","Cut G","charcoal",2185,140
+"131","GX-13023","Salango","Ecuador",NA,"charcoal",2220,80
+"132","GX-12379","La Tolita","Ecuador","10TPESE-740-86","charcoal",2265,115
+"133","Beta-188267","Santa Ana - La Florida","Ecuador",NA,NA,2280,80
+"134","Hv-2978","Palmar","Ecuador",NA,"unknown",2295,460
+"135","Beta-89270","Huapula","Ecuador",NA,"carbon",2310,90
+"136","GX-12472","Nambillo","Ecuador","R15","unknown",2315,120
+"137","GX-13026","Salango","Ecuador",NA,"human bone",2340,120
+"138","Hv-14704","Putushio","Ecuador","(7)F31/V-11c & V-12b","charcoal",2360,90
+"139","Beta-106086","Huapula","Ecuador",NA,"carbon",2360,150
+"140","Hv-1293","Palmar","Ecuador",NA,"unknown",2385,35
+"141","B-33782","Colon Eloy (R-36)","Ecuador",NA,NA,2390,90
+"142","B-5560","La Cadena","Ecuador",NA,NA,2430,135
+"143","SI-3307","Ayalan, Hacienda","Ecuador",NA,"charcoal",2450,250
+"144","Hv-14706","Putushio","Ecuador","(9)F1167/X-20c","charcoal",2450,70
+"145","GX-12380","La Tolita","Ecuador","11TPESE-760-86","charcoal",2450,60
+"146","ISGS-1347","Bella Vista (Puna Island)","Ecuador",NA,NA,2460,260
+"147","GX-13670","Salango","Ecuador",NA,"human bone",2475,90
+"148","GX-13672","Salango","Ecuador",NA,"human bone",2500,0
+"149","GX-12468","Nambillo","Ecuador","R42","unknown",2515,115
+"150","GX-13667","Salango","Ecuador",NA,"human bone",2530,80
+"151","SFU-109","Loma Alta","Ecuador",NA,NA,2540,246
+"152","GX-13028","Salango","Ecuador",NA,"human bone",2540,800
+"153","Hv-14707","Putushio","Ecuador","(10)F240/VI-13dCor.A","charcoal",2560,220
+"154","GX-16563","Loma Tello","Ecuador","LT-13","charcoal",2590,70
+"155","GX-9995","Salango","Ecuador",NA,"charcoal",2590,680
+"156","GX-7824","La Plata Island","Ecuador",NA,NA,2595,303
+"157","GX-7822","La Plata Island","Ecuador",NA,NA,2600,105
+"158","ISGS-1176","Nueva Era","Ecuador",NA,NA,2620,90
+"159","GX-7817","La Plata Island","Ecuador",NA,NA,2640,95
+"160","GX-9991","Salango","Ecuador",NA,"charcoal",2650,40
+"161","GX-13025","Salango","Ecuador",NA,"human bone",2655,60
+"162","GX-13669","Salango","Ecuador",NA,"human bone",2660,40
+"163","GX-9992","Salango","Ecuador",NA,"charcoal",2705,40
+"164","ISGS-1175","Nueva Era","Ecuador",NA,NA,2710,60
+"165","GX-7820","La Plata Island","Ecuador",NA,NA,2745,148
+"166","GX-7818","La Plata Island","Ecuador",NA,NA,2745,165
+"167","N-3870",NA,"Ecuador","I-4","unknown",2750,160
+"168","GX-9994","Salango","Ecuador",NA,"bone",2750,40
+"169","GX-9990","Salango","Ecuador",NA,"charcoal",2765,70
+"170","Beta-89271","Huapula","Ecuador",NA,"carbon",2780,240
+"171","HO-1307","Jama Valley","Ecuador",NA,"charcoal",2800,240
+"172","GX-7816","La Plata Island","Ecuador",NA,NA,2830,40
+"173","N-3869",NA,"Ecuador","I-2","unknown",2860,50
+"174","GX-13675","Salango","Ecuador",NA,"human bone",2870,50
+"175","N-2785","Cotocollao","Ecuador","SI-Evans-37","unknown",2880,150
+"176","ISGS-3310","Dos Caminos","Ecuador",NA,NA,2880,115
+"177","GX-7823","La Plata Island","Ecuador",NA,NA,2915,140
+"178","ISGS-3309","Dos Caminos","Ecuador",NA,NA,2930,70
+"179","SI-1051","Buena Vista","Ecuador",NA,NA,2945,71
+"180","B-43348","Santa Matra","Ecuador",NA,NA,2950,170
+"181","GX-13673","Salango","Ecuador",NA,"human bone",2965,220
+"182","I-7006","La Libertad","Ecuador",NA,NA,2990,0
+"183","OxA-1376","Pirincay","Ecuador",NA,"charcoal",3000,65
+"184","OxA-948","Pirincay","Ecuador",NA,NA,3000,185
+"185","I-7008","La Libertad","Ecuador",NA,NA,3015,185
+"186","GX-13027","Salango","Ecuador",NA,"human bone",3045,110
+"187","I-7013","La Libertad","Ecuador",NA,NA,3060,140
+"188","GX-7821","La Plata Island","Ecuador",NA,NA,3065,215
+"189","ISGS-1182","Nueva Era","Ecuador",NA,NA,3070,190
+"190","Beta-210218","Santa Ana - La Florida","Ecuador",NA,NA,3140,170
+"191","OxA-5836","Salango","Ecuador",NA,"human bone",3180,140
+"192","GX-12469","Nambillo","Ecuador","R34/R40","unknown",3225,165
+"193","SI-1050","Buena Vista","Ecuador",NA,NA,3250,160
+"194","N-2784","Cotocollao","Ecuador","SI-Evans-36","unknown",3320,180
+"195","GX-12473","Nambillo","Ecuador","R24","unknown",3330,145
+"196","SMU-2241","La Emerenciana","Ecuador",NA,NA,3361,45
+"197","GX-13668","Salango","Ecuador",NA,"human bone",3370,100
+"198","SMU-2226","La Emerenciana","Ecuador",NA,NA,3400,100
+"199","Beta-210217","Santa Ana - La Florida","Ecuador",NA,NA,3480,145
+"200","SMU-4549","La Emerenciana","Ecuador",NA,"charcoal",3629,80
+"201","N-2909","Ayalan","Ecuador",NA,NA,3630,40
+"202","Beta-188264","Santa Ana - La Florida","Ecuador",NA,NA,3660,100
+"203","N-2908","Ayalan","Ecuador",NA,NA,3665,160
+"204","Beta-188266","Santa Ana - La Florida","Ecuador",NA,NA,3690,245
+"205","Beta-125106","La Emerenciana","Ecuador","Sample A Cat. No.5480","organic material/acid washes",3700,135
+"206","Beta-197176","Santa Ana - La Florida","Ecuador",NA,"carbon",3700,100
+"207","Beta-214742","Santa Ana - La Florida","Ecuador",NA,"carbon",3700,60
+"208","SMU-2225","La Emerenciana","Ecuador",NA,NA,3707,120
+"209","SMU-2263","La Emerenciana","Ecuador",NA,NA,3775,130
+"210","Beta-210219","Santa Ana - La Florida","Ecuador",NA,NA,3790,140
+"211","Beta-188263","Santa Ana - La Florida","Ecuador",NA,NA,3820,100
+"212","Beta-188265","Santa Ana - La Florida","Ecuador",NA,NA,3830,95
+"213","GX-7430","Real alto","Ecuador",NA,NA,3845,75
+"214","GX-7430","Real Alto","Ecuador",NA,NA,3845,55
+"215","Beta-172587","Santa Ana - La Florida","Ecuador",NA,NA,3860,80
+"216","Beta-125107","La Emerenciana","Ecuador","Sample B Cat No.5623","organic material/acid washes",3860,100
+"217","L-1232H","Punta Concepción","Ecuador",NA,NA,3900,140
+"218","N-2783","Cotocollao","Ecuador","SI-Evans-35","unknown",3960,50
+"219","GX-7702","Loma Alta","Ecuador",NA,NA,3985,270
+"220","GX#30043","Santa Ana - La Florida","Ecuador",NA,NA,3990,70
+"221","GX-7434","Real Alto","Ecuador",NA,NA,4015,65
+"222","P-2761","Anllulla","Ecuador","3","charcoal",4020,160
+"223","GX-7429","Real Alto","Ecuador",NA,NA,4050,0
+"224","GX-7429","Real Alto","Ecuador",NA,NA,4050,200
+"225","Hv-4675","Valdivia","Ecuador",NA,"unknown",4075,210
+"226","M-1321","Valdivia","Ecuador","Zone E, 3.9-4.2 m","shell",4100,900
+"227","SMU-4259","La Emerenciana","Ecuador",NA,"charcoal",4109,240
+"228","ISGS-467","Real Alto","Ecuador",NA,NA,4140,40
+"229","GX-7436","Real Alto","Ecuador",NA,NA,4145,150
+"230","M-1318","Valdivia","Ecuador","Zone D, 3.0-3.3 m","charcoal",4170,420
+"231","GX-7437","Real Alto","Ecuador",NA,NA,4175,110
+"232","GX-7438","Real Alto","Ecuador",NA,NA,4205,200
+"233","GX-7439","Real Alto","Ecuador",NA,NA,4240,30
+"234","GX-7700","Loma Alta","Ecuador",NA,NA,4245,200
+"235","L-1232","Punta Concepción","Ecuador",NA,NA,4250,60
+"236","Hv-4838","Valdivia","Ecuador",NA,"charcoal",4260,60
+"237","GX-7701","Loma Alta","Ecuador",NA,NA,4260,30
+"238","ISGS-446","Real Alto","Ecuador",NA,NA,4270,60
+"239","Beta-197175","Santa Ana - La Florida","Ecuador",NA,NA,4300,150
+"240","Hv-4673","Loma Alta","Ecuador",NA,"charcoal",4335,60
+"241","SFU-120","Loma Alta","Ecuador",NA,NA,4360,65
+"242","GX-5271","Colimes","Ecuador",NA,NA,4365,60
+"243","GX-7703","Loma Alta","Ecuador",NA,NA,4375,60
+"244","SFU-105","Loma Alta","Ecuador",NA,NA,4450,50
+"245","SFU-122","Loma Alta","Ecuador",NA,NA,4460,90
+"246","M-1317","Valdivia","Ecuador","Zone D, 2.7 - 3.0","charcoal",4480,100
+"247","Hv-4840","Valdivia","Ecuador",NA,"charcoal",4495,100
+"248","Hv-4674","Valdivia","Ecuador",NA,"charcoal",4510,20
+"249","ISGS-477","Colimes","Ecuador",NA,NA,4525,60
+"250","Hv-4839","Valdivia","Ecuador",NA,"charcoal",4535,51
+"251","GX-12470","Nambillo","Ecuador","R35","unknown",4540,80
+"252","Hv-4835","Valdivia","Ecuador",NA,"unknown",4620,53
+"253","M-1322","Valdivia","Ecuador","Zone E, 4.0 m","charcoal",4620,90
+"254","GX-9460","Loma Alta","Ecuador",NA,NA,4700,40
+"255","N-4491","Huapula","Ecuador","MS-Hp Tola 1.50 m","unknown",4700,75
+"256","SFU-110","Loma Alta","Ecuador",NA,NA,4790,60
+"257","SFU-123","Loma Alta","Ecuador",NA,NA,4920,200
+"258","GX-9458","Loma Alta","Ecuador",NA,NA,4960,60
+"259","GX-13674","Salango","Ecuador",NA,"human bone",4970,65
+"260","GX-9459","Loma Alta","Ecuador",NA,NA,5050,60
+"261","M-1320","Valdivia","Ecuador","Zone E, 3.6-3.9 m","charcoal",5150,70
+"262","GX-9457","Loma Alta","Ecuador",NA,NA,5240,75
+"263","GX-12471","Nambillo","Ecuador","R41","unknown",5325,144
+"264","SRR-438","Quito","Ecuador",NA,"wood",6470,130
+"265","SRR-718","Rio Monjas","Ecuador",NA,"peat",6750,60
+"266","TX-1133","Cubilan","Ecuador",NA,"charcoal",8480,100
+"267","R-1070/2","El Inga","Ecuador",NA,"charcoal",9033,33
+"268","SRR-2585","Rio Collanes","Ecuador",NA,"peat",9310,60
+"269","TX-1132","Chobsi","Ecuador",NA,"charcoal",10010,60
+"270","SRR-2581","Rio Mocha","Ecuador",NA,"peat",10650,60
+"271","SRR-2582","Rio Mocha","Ecuador",NA,"peat",11370,60
+"272","SRR-618","Punta Juramijo","Ecuador",NA,"shell",32870,70
+"273","SRR-2583","Chimborazo","Ecuador",NA,"peat",35440,105
+"274","SRR-2584","Chimborazo","Ecuador",NA,"peat",40330,70
+"275","SRR-439","Sangolqui","Ecuador",NA,"wood",48800,70
